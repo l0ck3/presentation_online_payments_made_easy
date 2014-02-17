@@ -1,0 +1,215 @@
+<style type="text/css">
+  .inverse {
+    color: #FFFFFF !important;
+  }
+  
+  h1, h2, h3 {
+    color: #ff5a00 !important;
+    font-weight: bold !important;
+  }
+  
+  h2 {
+    margin-bottom: 50px !important;
+  }
+  
+  img {
+    border: none !important;
+    box-shadow: none !important;
+  }
+</style>
+<section data-background-color="#ff5a00">
+  <h1 class="inverse">
+    PAYMILL
+  </h1>
+  <h3 class="inverse">
+    < Online payments made easy />
+  </h3>
+  <p class="inverse">
+    <small>Yann IRBAH <a href="http://twitter.com/yannirbah">@yannirbah</a> </small>
+  </p>
+</section>
+<section>
+  <h2>
+    < Payment is critical ... />
+  </h2>
+  <h4>
+    You wanna earn money don't you ?
+  </h4>
+</section>
+<section>
+  <h2>
+    < ... But painful />
+  </h2>
+  <ul>
+    <li class="fragment">
+      Integration
+    </li>
+    <li class="fragment">
+      PCI Compliance
+    </li>
+    <li class="fragment">
+      Currencies
+    </li>
+    <li class="fragment">
+      Merchant account
+    </li>
+    <li class="fragment">
+      Setup fees
+    </li>
+    <li class="fragment">
+      ...
+    </li>
+  </ul>
+</section>
+<section>
+  <h2>
+    < It can kill your startup ! />
+  </h2>
+</section>
+<section>
+  <h2>
+    < Paymill to the rescue />
+  </h2>
+  <ul>
+    <li class="fragment">
+      Full stack payment provider
+    </li>
+    <li class="fragment">
+      Quick setup
+    </li>
+    <li class="fragment">
+      Fits your payment process
+    </li>
+  </ul>
+</section>
+<section>
+  <h2>
+    < REST in peace />
+  </h2>
+  <ul>
+    <li class="fragment">
+      Well documented API
+    </li>
+    <li class="fragment">
+      Virtually compatible with any stack
+    </li>
+    <li class="fragment">
+      Have it your way
+    </li>
+  </ul>
+</section>
+<section>
+  <h2>
+    < Geek payment />
+  </h2>
+  <pre><code>curl https://api.paymill.com/v2/transactions \
+  -u a1693ac0b9bb16d88f2ca2dc72c3811f: \
+  -d &quot;amount=4200&quot; \
+  -d &quot;currency=EUR&quot; \
+  -d &quot;token=098f6bcd4621d373cade4e832627b4f6&quot; \
+  -d &quot;description=Test Transaction&quot;
+</code></pre>
+</section>
+<section>
+  <h2>
+    < Developper payment />
+  </h2>
+  <pre><code>$transaction = new Paymill\Models\Request\Transaction();
+$transaction-&gt;setAmount(4200)
+            -&gt;setCurrency(&#39;EUR&#39;)
+            -&gt;setToken(&#39;098f6bcd4621d373cade4e832627b4f6&#39;)
+            -&gt;setDescription(&#39;Test Transaction&#39;);
+
+$response = $request-&gt;create($transaction);
+</code></pre>
+</section>
+<section>
+  <h2>
+    < Chose your flavor />
+  </h2>
+  <strong>We support :</strong>
+  <p>
+     Java, Javascript, .NET, PHP, Python, Ruby
+  </p>
+  <hr />
+  <strong>Community provided :</strong>
+  <p>
+    Clojure, Codeigniter, ColdFusion, Common Lisp, NodeJS
+  </p>
+  <br /><strong>Not enough ? Well it's just HTTP. Build your own wrapper !</strong>
+</section>
+<section>
+  <h2>
+    < We even have plugins />
+  </h2>
+  <p>
+    Magento, OXID, Shopware, Wordpress ...
+  </p>
+  <br /><strong>Check our website for more</strong>
+</section>
+<section>
+  <h2>
+    < Some features />
+  </h2>
+  <ul>
+    <li class="fragment">
+      Payments
+    </li>
+    <li class="fragment">
+      Subscriptions
+    </li>
+    <li class="fragment">
+      Marketplace
+    </li>
+    <li class="fragment">
+      E-mail alerting
+    </li>
+    <li class="fragment">
+      AutoInvoicing
+    </li>
+    <li class="fragment">
+      Paymill Connect
+    </li>
+    <li class="fragment">
+      PayButton
+    </li>
+  </ul>
+</section>
+<section>
+  <h2>
+    < Payment workflow />
+  </h2>
+</section>
+<section>
+  <img src="images/WF_1_payment_form.png" />
+</section>
+<section>
+  <img src="images/WF_2_token.png" />
+</section>
+<section>
+  <img src="images/WF_3_processing.png" />
+</section>
+<section>
+  <img src="images/WF_4_transaction.png" />
+</section>
+<section>
+  <h2>
+    < Real-Life Example />
+  </h2>
+  <h4>
+    Yay! Time for some live coding
+  </h4>
+</section>
+<section>
+  <h2>
+    < Now start earning money />
+  </h2>
+  <h4>
+    That's all folks! Questions ?
+  </h4>
+</section>
+<section>
+  <h2>
+    < Thank You />
+  </h2>
+</section>
